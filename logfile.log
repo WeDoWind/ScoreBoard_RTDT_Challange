@@ -1,4 +1,4 @@
-324     session_id  data_quality              Submission
+     session_id  data_quality              Submission
 0             0             0     .ipynb_checkpoints/
 1             1             0     .ipynb_checkpoints/
 2             2             0     .ipynb_checkpoints/
@@ -15,17 +15,341 @@
 CMD: ['git', 'add', '-f', 'docs/ranking.csv']
 STDOUT: 
 STDERR: 
-CMD: ['git', 'add', '-f', 'logfile.log']
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:12:02']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
 STDOUT: 
 STDERR: 
-CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:10:04']
-STDOUT: [main 069e872] Update rankings - 2026-04-14 00:10:04
- 1 file changed, 1 insertion(+), 90 deletions(-)
- rewrite logfile.log (100%)
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:13:02']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:14:03']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:15:05']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:16:03']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:17:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:18:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:19:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+.ipynb_checkpoints/
+participant_2-result_1.csv
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:21:03']
+STDOUT: [main dfed4ec] Update rankings - 2026-04-14 00:21:03
+ 1 file changed, 1 deletion(-)
 
 STDERR: 
 CMD: ['git', 'push']
 STDOUT: 
 STDERR: To github.com:WeDoWind/ScoreBoard_RTDT_Challange.git
-   2126bf0..069e872  main -> main
+   a63bc92..dfed4ec  main -> main
+
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:22:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
+
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:23:02']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+	modified:   logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: Everything up-to-date
 

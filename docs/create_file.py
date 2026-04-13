@@ -7,6 +7,9 @@ from io import StringIO
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime
 import os
+import os
+
+os.environ["GIT_SSH_COMMAND"] = "ssh -i /home/weid/.ssh/id_ed25519_challange_scoreboard"
 
 char_set = ["0","0","0","0", "1", "2", "3", "4", "5", "6", "7"]
 ENABLE_GIT_PUSH = True
@@ -72,6 +75,10 @@ def load_submissions_csv(rclone_remote="switchdrive", folder="RTDT-Corrupted/Sub
     # Download each CSV into a pandas DataFrame and concatenate
     dfs = []
     for file in files:
+
+        if not".csv" in file:
+            continue
+
         try:
             csv_result = subprocess.run(
                 ["rclone", "cat", f"{rclone_remote}:{folder}/{file}"],
@@ -117,16 +124,11 @@ def run_command(cmd: List[str], check: bool = False):
     return result.returncode, result.stdout, result.stderr
 
 def push_to_github():
-    if not ENABLE_GIT_PUSH:
-        print("Git push disabled")
-        return False
-
-    # ensure repo root
     os.chdir("/home/weid/challange_scoreboard")
 
-    # add file (RELATIVE path)
-    run_command(["git", "add", "docs/ranking.csv"], check=True)
-
+    # force add file
+    run_command(["git", "add", "-f", "docs/ranking.csv"], check=True)
+    # run_command(["git", "add", "-f", "logfile.log"], check=True)
     commit_msg = f"Update rankings - {datetime.now():%Y-%m-%d %H:%M:%S}"
     rc, out, err = run_command(["git", "commit", "-m", commit_msg])
 
@@ -136,15 +138,9 @@ def push_to_github():
 
     run_command(["git", "push"], check=True)
 
-    print("Pushed successfully")
-    return True
-
 
 if __name__ == "__main__":
-    REPO_ROOT = Path("/home/weid/challange_scoreboard")
-    os.chdir(REPO_ROOT)
     df_combined = load_submissions_csv()
     combined = create_overall_df(df_combined)
-    print(df_combined)
     combined.to_csv("/home/weid/challange_scoreboard/docs/ranking.csv")
     push_to_github()
