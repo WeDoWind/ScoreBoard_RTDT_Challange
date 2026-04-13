@@ -1,1 +1,31 @@
-324
+324     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', '-f', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'add', '-f', 'logfile.log']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:10:04']
+STDOUT: [main 069e872] Update rankings - 2026-04-14 00:10:04
+ 1 file changed, 1 insertion(+), 90 deletions(-)
+ rewrite logfile.log (100%)
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: To github.com:WeDoWind/ScoreBoard_RTDT_Challange.git
+   2126bf0..069e872  main -> main
+
