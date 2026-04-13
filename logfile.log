@@ -1,0 +1,329 @@
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-13 23:55:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-13 23:56:03']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-13 23:57:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-13 23:58:06']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-13 23:59:04']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:00:03']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+     session_id  data_quality              Submission
+0             0             0     .ipynb_checkpoints/
+1             1             0     .ipynb_checkpoints/
+2             2             0     .ipynb_checkpoints/
+3             3             0     .ipynb_checkpoints/
+4             4             0     .ipynb_checkpoints/
+..          ...           ...                     ...
+461         228        100002  participant_2-result_1
+462         229        100002  participant_2-result_1
+463         230        100002  participant_2-result_1
+464         231        100003  participant_2-result_1
+465         232        100001  participant_2-result_1
+
+[466 rows x 3 columns]
+CMD: ['git', 'add', 'docs/ranking.csv']
+STDOUT: 
+STDERR: 
+CMD: ['git', 'commit', '-m', 'Update rankings - 2026-04-14 00:01:03']
+STDOUT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/create_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.vscode/
+	logfile.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+STDERR: 
+CMD: ['git', 'push']
+STDOUT: 
+STDERR: fatal: could not read Username for 'https://github.com': No such device or address
+
+Traceback (most recent call last):
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 150, in <module>
+    push_to_github()
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 137, in push_to_github
+    run_command(["git", "push"], check=True)
+  File "/home/weid/challange_scoreboard/docs/create_file.py", line 115, in run_command
+    raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.

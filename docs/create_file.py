@@ -6,12 +6,13 @@ import subprocess
 from io import StringIO
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime
+import os
 
 char_set = ["0","0","0","0", "1", "2", "3", "4", "5", "6", "7"]
 ENABLE_GIT_PUSH = True
 GITHUB_REPO = Path().cwd()
 GIT = "git"
-DEPLOY_DIR = Path("docs")
+DEPLOY_DIR = Path("/home/weid/challange_scoreboard/docs")
 
 def create_random_overall_file(participantes_num = 10, data_subsets = 10):
     
@@ -38,7 +39,7 @@ def create_random_individual_submissions(participantes_num = 10, sessions_num = 
             data["session_id"].append(i)
             data["data_quality"].append(random.choice(char_set))
         df = pd.DataFrame(data)
-        df.to_csv(f"Submission/participant_{p}-result_1.csv", index=False)
+        df.to_csv(f"Submissions/participant_{p}-result_1.csv", index=False)
 
 
 
@@ -103,43 +104,47 @@ def get_all_df( path_to_dir, suffix=".csv" ):
 def create_overall_df(df_combined: pd.DataFrame):
     return df_combined.pivot(index='Submission', columns='session_id', values='data_quality')
 
-def run_command(cmd: List[str], check: bool = False) -> Tuple[int, str, str]:
-    """Execute shell command and return output."""
+def run_command(cmd: List[str], check: bool = False):
     result = subprocess.run(cmd, capture_output=True, text=True)
+
+    print("CMD:", cmd)
+    print("STDOUT:", result.stdout)
+    print("STDERR:", result.stderr)
+
     if check and result.returncode != 0:
         raise subprocess.CalledProcessError(result.returncode, cmd, result.stderr)
+
     return result.returncode, result.stdout, result.stderr
 
 def push_to_github():
-    """Push updated CSV to GitHub."""
     if not ENABLE_GIT_PUSH:
-        print("Git push disabled", "INFO")
+        print("Git push disabled")
         return False
-    
-    try:
-        run_command([str(GIT), "add", str(DEPLOY_DIR / "ranking.csv")], check=True)
-        
-        commit_msg = f"Update rankings - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        rc, out, _ = run_command([str(GIT), "commit", "-m", commit_msg])
-        
-        if "nothing to commit" in out:
-            print("No changes to commit", "INFO")
-            return True
-        
-        run_command([str(GIT), "push"], check=True)
-        print("Pushed to GitHub successfully", "SUCCESS")
+
+    # ensure repo root
+    os.chdir("/home/weid/challange_scoreboard")
+
+    # add file (RELATIVE path)
+    run_command(["git", "add", "docs/ranking.csv"], check=True)
+
+    commit_msg = f"Update rankings - {datetime.now():%Y-%m-%d %H:%M:%S}"
+    rc, out, err = run_command(["git", "commit", "-m", commit_msg])
+
+    if "nothing to commit" in out or "nothing to commit" in err:
+        print("No changes to commit")
         return True
-        
-    except subprocess.CalledProcessError as e:
-        print(f"Git error: {e}", "ERROR")
-        return False
-    except Exception as e:
-        print(f"Push failed: {e}", "ERROR")
-        return False
+
+    run_command(["git", "push"], check=True)
+
+    print("Pushed successfully")
+    return True
 
 
 if __name__ == "__main__":
+    REPO_ROOT = Path("/home/weid/challange_scoreboard")
+    os.chdir(REPO_ROOT)
     df_combined = load_submissions_csv()
     combined = create_overall_df(df_combined)
-    combined.to_csv("docs/ranking.csv")
+    print(df_combined)
+    combined.to_csv("/home/weid/challange_scoreboard/docs/ranking.csv")
     push_to_github()
