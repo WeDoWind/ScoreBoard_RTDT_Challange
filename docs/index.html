@@ -228,6 +228,7 @@
             const dataCells = row.slice(2); // Skip ID and Name columns
             
             dataCells.forEach((cell, colIndex) => {
+                console.debug(cell)
                 if (cell === '0'| cell === '0.0') {
                     zerosData[colIndex]++;
                 } else {
