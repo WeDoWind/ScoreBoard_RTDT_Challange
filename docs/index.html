@@ -181,7 +181,7 @@
 
         // Count total cells with value "0"
         const totalZeros = allData.slice(1).reduce((count, row) => {
-            return count + row.slice(2).filter(cell => cell == '0' | cell == 0).length;
+            return count + row.slice(2).filter(cell => cell == '0' | cell == '0.0').length;
         }, 0);
 
         document.getElementById('stats').innerHTML = `
