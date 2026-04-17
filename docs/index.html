@@ -166,7 +166,7 @@
             table.appendChild(tr);
         });
 
-        
+
         // Render stats after matrix
         renderStats();
     }
@@ -228,7 +228,7 @@
             const dataCells = row.slice(2); // Skip ID and Name columns
             
             dataCells.forEach((cell, colIndex) => {
-                if (cell === '0') {
+                if (cell === '0'| cell === '0.0') {
                     zerosData[colIndex]++;
                 } else {
                     nonZerosData[colIndex]++;
